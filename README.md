@@ -24,7 +24,7 @@ Projects here focus on solving real-world problems with an emphasis on:
 
 ## Current status
 
-🚧 Projects are being added progressively.
+ Projects are being added progressively.
 
 Each project is published once it includes:
 - a clear problem definition,
@@ -35,5 +35,4 @@ Each project is published once it includes:
 ## Contact
 
 - LinkedIn: https://linkedin.com/in/totkanligizem
-- GitHub: https://github.com/totkanligizem
 - Kaggle: https://kaggle.com/gtotkanli
