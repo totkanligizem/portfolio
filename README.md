@@ -25,7 +25,15 @@ I design and deliver projects that solve real business problems with a strong fo
 
 ## Featured Projects
 
-### 1) [Basket AI — Market Basket Recommender](https://github.com/totkanligizem/basket_ai)
+### 1) [Atlas Aegis — Robust Aerial Detection + MOT + Risk Banding](https://github.com/totkanligizem/Atlas-Aegis)
+A local-first, production-minded aerial AI pipeline for small-object detection, multi-object tracking, and explainable risk banding.
+
+**Highlights:** YOLOv8n/YOLOv8s training and robustness tiers (fast/candidate/full41) • MOT evaluation (MOTA/HOTA/AssA/DetA/IDSW) • explainable Green/Yellow/Red risk scoring • release gates (quality, latency/export, legal, budget) • Streamlit dashboard for portfolio-ready reporting  
+**Stack:** Python • PyTorch • Ultralytics YOLOv8 • OpenCV • DuckDB • Streamlit
+
+---
+
+### 2) [Basket AI — Market Basket Recommender](https://github.com/totkanligizem/basket_ai)
 An end-to-end recommendation system covering data preparation, candidate generation, ranking, and evaluation.
 
 **Highlights:** association rules + co-occurrence signals • offline ranking metrics (Recall@K / NDCG@K) • reproducible notebooks and scripts  
@@ -33,8 +41,8 @@ An end-to-end recommendation system covering data preparation, candidate generat
 
 ---
 
-### 2) [E-Commerce: AI Hub — Operational AI Decision Platform](https://github.com/totkanligizem/e-commerce-ai-hub)
-A production-style AI and analytics platform that combines predictive ML, RAG, and interactive operational decision support.
+### 3) [E-Commerce: AI Hub — Operational AI Decision Platform](https://github.com/totkanligizem/e-commerce-ai-hub)
+A production-style AI and analytics platform combining predictive ML, RAG, and interactive operational decision support.
 
 **Highlights:** churn + delay risk modeling • BigQuery + BQML pipeline • Vertex AI-powered RAG • Streamlit operations cockpit • Sentinel action engine • dual assistant profiles (Concierge / Operations)  
 **Stack:** Python • BigQuery • BQML • Vertex AI • Streamlit
