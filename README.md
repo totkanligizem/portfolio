@@ -18,6 +18,8 @@ I design and deliver projects that solve real business problems with a strong fo
   Business-facing insights built for decision support.
 - **NLP and LLM applications**  
   RAG pipelines, embeddings, semantic retrieval, and grounded response design.
+- **Risk analytics and graph intelligence systems**  
+  Fraud/AML detection workflows with queue prioritization, graph risk context, and quality-gated delivery.
 - **Case studies and technical deep-dives**  
   Clear methodology, assumptions, trade-offs, and outcomes.
 
@@ -25,7 +27,15 @@ I design and deliver projects that solve real business problems with a strong fo
 
 ## Featured Projects
 
-### 1) [Atlas Aegis — Robust Aerial Detection + MOT + Risk Banding](https://github.com/totkanligizem/Atlas-Aegis)
+### 1) [Fraud - AML Graph Sentinel](https://github.com/totkanligizem/fraud-aml-graph-sentinel)
+An end-to-end financial crime intelligence platform combining fraud scoring, AML graph analytics, BigQuery semantic views, and Vertex AI analyst copilot workflows.
+
+**Highlights:** multi-source canonical ingestion • deterministic warehouse + feature pipelines • probabilistic fraud scoring and queue prioritization • graph-based suspicious cluster analytics • BigQuery mirror + executive/analyst views • Gemini-based structured copilot outputs • dashboard quality gates and publish-ready reporting  
+**Stack:** Python • SQL • SQLite • BigQuery • Vertex AI (Gemini) • JavaScript • HTML/CSS • Make
+
+---
+
+### 2) [Atlas Aegis — Robust Aerial Detection + MOT + Risk Banding](https://github.com/totkanligizem/Atlas-Aegis)
 A local-first, production-minded aerial AI pipeline for small-object detection, multi-object tracking, and explainable risk banding.
 
 **Highlights:** YOLOv8n/YOLOv8s training and robustness tiers (fast/candidate/full41) • MOT evaluation (MOTA/HOTA/AssA/DetA/IDSW) • explainable Green/Yellow/Red risk scoring • release gates (quality, latency/export, legal, budget) • Streamlit dashboard for portfolio-ready reporting  
@@ -33,7 +43,7 @@ A local-first, production-minded aerial AI pipeline for small-object detection, 
 
 ---
 
-### 2) [Basket AI — Market Basket Recommender](https://github.com/totkanligizem/basket_ai)
+### 3) [Basket AI — Market Basket Recommender](https://github.com/totkanligizem/basket_ai)
 An end-to-end recommendation system covering data preparation, candidate generation, ranking, and evaluation.
 
 **Highlights:** association rules + co-occurrence signals • offline ranking metrics (Recall@K / NDCG@K) • reproducible notebooks and scripts  
@@ -41,7 +51,7 @@ An end-to-end recommendation system covering data preparation, candidate generat
 
 ---
 
-### 3) [E-Commerce: AI Hub — Operational AI Decision Platform](https://github.com/totkanligizem/e-commerce-ai-hub)
+### 4) [E-Commerce: AI Hub — Operational AI Decision Platform](https://github.com/totkanligizem/e-commerce-ai-hub)
 A production-style AI and analytics platform combining predictive ML, RAG, and interactive operational decision support.
 
 **Highlights:** churn + delay risk modeling • BigQuery + BQML pipeline • Vertex AI-powered RAG • Streamlit operations cockpit • Sentinel action engine • dual assistant profiles (Concierge / Operations)  
