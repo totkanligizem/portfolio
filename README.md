@@ -20,6 +20,8 @@ I design and deliver projects that solve real business problems with a strong fo
   RAG pipelines, embeddings, semantic retrieval, and grounded response design.
 - **Risk analytics and graph intelligence systems**  
   Fraud/AML detection workflows with queue prioritization, graph risk context, and quality-gated delivery.
+- **Geospatial and environmental intelligence products**  
+  City/province-level climate-air quality analytics, API products, and localization-ready app surfaces.
 - **Case studies and technical deep-dives**  
   Clear methodology, assumptions, trade-offs, and outcomes.
 
@@ -35,19 +37,19 @@ An end-to-end financial crime intelligence platform combining fraud scoring, AML
 
 ---
 
-### 2) [Atlas Aegis — Robust Aerial Detection + MOT + Risk Banding](https://github.com/totkanligizem/Atlas-Aegis)
+### 2) [Breathwise TR — Environmental Intelligence Platform](https://github.com/totkanligizem/breathwise-tr)
+A production-minded, local-first environmental intelligence platform for Turkey that unifies weather forecast, air quality, historical weather, archived historical forecast, CAMS reanalysis, and province geometry into analytics marts, APIs, and bilingual product surfaces.
+
+**Highlights:** DuckDB + Parquet analytical marts • city-hourly and province-level intelligence products • forecast-vs-actual reliability layer • FastAPI backend with auth-protected endpoints • scheduler/orchestration + run health + alerting workflow • TR/EN localization-ready contracts • Expo mobile/web shell with province choropleth experience • sanitized export discipline for safe portfolio/public sharing  
+**Stack:** Python • SQL • DuckDB • Parquet • FastAPI • TypeScript • Expo • React Native • React Native Web • GeoPandas • Shapely
+
+---
+
+### 3) [Atlas Aegis — Robust Aerial Detection + MOT + Risk Banding](https://github.com/totkanligizem/Atlas-Aegis)
 A local-first, production-minded aerial AI pipeline for small-object detection, multi-object tracking, and explainable risk banding.
 
 **Highlights:** YOLOv8n/YOLOv8s training and robustness tiers (fast/candidate/full41) • MOT evaluation (MOTA/HOTA/AssA/DetA/IDSW) • explainable Green/Yellow/Red risk scoring • release gates (quality, latency/export, legal, budget) • Streamlit dashboard for portfolio-ready reporting  
 **Stack:** Python • PyTorch • Ultralytics YOLOv8 • OpenCV • DuckDB • Streamlit
-
----
-
-### 3) [Basket AI — Market Basket Recommender](https://github.com/totkanligizem/basket_ai)
-An end-to-end recommendation system covering data preparation, candidate generation, ranking, and evaluation.
-
-**Highlights:** association rules + co-occurrence signals • offline ranking metrics (Recall@K / NDCG@K) • reproducible notebooks and scripts  
-**Stack:** Python • pandas • scikit-learn
 
 ---
 
@@ -56,6 +58,14 @@ A production-style AI and analytics platform combining predictive ML, RAG, and i
 
 **Highlights:** churn + delay risk modeling • BigQuery + BQML pipeline • Vertex AI-powered RAG • Streamlit operations cockpit • Sentinel action engine • dual assistant profiles (Concierge / Operations)  
 **Stack:** Python • BigQuery • BQML • Vertex AI • Streamlit
+
+---
+
+### 5) [Basket AI — Market Basket Recommender](https://github.com/totkanligizem/basket_ai)
+An end-to-end recommendation system covering data preparation, candidate generation, ranking, and evaluation.
+
+**Highlights:** association rules + co-occurrence signals • offline ranking metrics (Recall@K / NDCG@K) • reproducible notebooks and scripts  
+**Stack:** Python • pandas • scikit-learn
 
 ---
 
